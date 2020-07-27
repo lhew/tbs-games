@@ -1,6 +1,8 @@
 .env
 node_modules
 public
+lib
 build
+dist
 .DS_Store
 .gitconfig

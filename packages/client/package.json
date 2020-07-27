@@ -1,0 +1,78 @@
+{
+  "name": "@tbs-games/client",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Leonardo Almeida Marques <leonardo.almeidamarques@finqle.nl\n>",
+  "homepage": "https://github.com/lhew/tbs-games/tree/master/packages/client#readme",
+  "license": "ISC",
+  "main": "lib/client.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.finqle.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhew/tbs-games.git"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "prettier": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --progress",
+    "build": "rm -rf public && webpack -p",
+    "serve": "http-server public",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/lhew/tbs-games/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@tbs-games/components": "^0.0.0",
+    "@apollo/client": "^3.0.2",
+    "axios": "^0.19.2",
+    "formik": "^2.1.5",
+    "graphql": "^15.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.1",
+    "babel-loader": "^8.1.0",
+    "dotenv": "^6.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "husky": "^4.2.5",
+    "jest": "23.6.0",
+    "jest-resolve": "23.6.0",
+    "jest-transform-stub": "^2.0.0",
+    "jest-watch-typeahead": "^0.2.1",
+    "ts-loader": "^7.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "webpack": "^4.39.2",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
