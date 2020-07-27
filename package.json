@@ -1,6 +1,6 @@
 {
   "name": "tbs-games",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A collection of turn-based strategy games",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,16 @@
     "start": "lerna run start --stream",
     "watch": "lerna run watch --stream"
   },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lhew/tbs-games.git"
   },
-  "author": "",
+  "author": "Leonardo Almeida Marques <leonardoalmeidamarques@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lhew/tbs-games/issues"

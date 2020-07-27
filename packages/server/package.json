@@ -2,7 +2,7 @@
   "name": "@tbs-games/server",
   "version": "0.0.0",
   "description": "node server for the games",
-  "author": "Leonardo Almeida Marques <leonardo.almeidamarques@finqle.nl\n>",
+  "author": "Leonardo Almeida Marques <leonardo.almeidamarques@gmail.com\n>",
   "homepage": "https://github.com/lhew/tbs-games/tree/master/packages/server#readme",
   "license": "ISC",
   "main": "lib/server.js",
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://npm.finqle.io/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lhew/tbs-games.git"
