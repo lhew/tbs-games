@@ -13,7 +13,8 @@ module.exports = {
         },
       ],
     });
-    config.resolve.extensions.push('.ts', '.tsx');
+    config.resolve.extensions.push('.ts', '.tsx', '.js', '.json');
     return config;
   },
+  addons: ['@storybook/addon-knobs/register', '@storybook/addon-jest/register', '@storybook/addon-docs'],
 };

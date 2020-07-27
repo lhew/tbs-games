@@ -1,8 +1,9 @@
 import React, { FC, ReactNode } from 'react';
 import { Btn } from './styles';
 
-interface Props {
+export interface Props {
   children: ReactNode;
+  [k: string]: ReactNode;
 }
 
 const Button: FC<Props> = ({ children, ...props }) => {
