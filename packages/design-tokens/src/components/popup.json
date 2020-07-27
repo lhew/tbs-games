@@ -1,0 +1,16 @@
+{
+  "popup": {
+    "default": {
+      "padding": {
+        "value": 1.5
+      },
+      "backgroundColor": {
+        "value": "white"
+      }
+    },
+    "disabled": {
+      "value": "{color.gray.300.value}",
+      "color": "white"
+    }
+  }
+}

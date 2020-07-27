@@ -1,0 +1,42 @@
+{
+  "font": {
+    "base": { "value": "temp" },
+    "secondary": { "value": "solution" },
+    "tertiary": { "value": "not-done-yet" },
+    "family": {
+      "primary": "Quicksand",
+      "secondary": "Lato"
+    },
+    "size": {
+      "x-small": {
+        "value": 0.75
+      },
+      "small": {
+        "value": 0.85
+      },
+      "default": {
+        "value": 1
+      },
+      "medium": {
+        "value": 1.31
+      },
+      "x-medium": {
+        "value": 1.125
+      },
+      "large": {
+        "value": 1.5
+      },
+      "x-large": {
+        "value": 1.8
+      },
+      "value": "{font.size.default.value}",
+      "comment": "the base size of the font"
+    },
+    "color": {
+      "primary": { "value": "{color.primary.300.value" },
+      "secondary": { "value": "{color.secondary.300.value" },
+      "tertiary": { "value": "{color.tertiary.300.value" },
+      "gray": { "value": "{color.gray.300.value" }
+    }
+  }
+}
