@@ -1,12 +1,13 @@
 {
   "name": "tbs-games",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of turn-based strategy games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "lerna run lint --stream",
     "prettier": "lerna run prettier --stream",
+    "release": "standard-version",
     "start": "lerna run start --stream",
     "watch": "lerna run watch --stream"
   },
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/lhew/tbs-games#readme",
   "devDependencies": {
     "@types/node": "^14.0.26",
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "standard-version": "^8.0.2"
   }
 }
