@@ -1,0 +1,18 @@
+{
+  "button": {
+    "default": {
+      "font": {
+        "family": { "value": "{font.family.primary}" },
+        "weight": "bold"
+      },
+      "color": {"value" :"white"},
+      "backgroundColor": {
+        "value": "{color.primary.300.value}"
+      }
+    },
+    "disabled": {
+      "value": "{color.gray.300.value}",
+      "color": "white"
+    }
+  }
+}

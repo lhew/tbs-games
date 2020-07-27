@@ -1,0 +1,30 @@
+{
+  "source": ["src/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "lib/",
+      "files": [{
+        "destination": "_index.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "lib/",
+      "files": [{
+        "destination": "index.js",
+        "format": "javascript/es6",
+        "name": "variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "lib/",
+      "files": [{
+        "destination": "index.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}
