@@ -1,5 +1,5 @@
 {
-  "name": "design-tokens",
+  "name": "@tbs-games/design-tokens",
   "version": "0.0.0",
   "description": "Design tokens for the app",
   "author": "Leonardo Almeida Marques <leonardo.almeidamarques@finqle.nl\n>",

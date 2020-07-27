@@ -6,3 +6,5 @@ build
 dist
 .DS_Store
 .gitconfig
+coverage
+.jest-test-results.json
