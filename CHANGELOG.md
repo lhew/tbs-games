@@ -10,6 +10,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.1](https://github.com/lhew/tbs-games/compare/v1.1.0...v1.1.1) (2020-07-27)
 
+- Test version - no features included
+
 ## 1.1.0 (2020-07-27)
 
 ### Features
