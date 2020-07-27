@@ -11,11 +11,16 @@
     "start": "lerna run start --stream",
     "watch": "lerna run watch --stream"
   },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lhew/tbs-games.git"
   },
-  "author": "",
+  "author": "Leonardo Almeida Marques <leonardoalmeidamarques@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lhew/tbs-games/issues"
