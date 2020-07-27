@@ -8,5 +8,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * :tada: Added initial monorepo structure for client, server and base components ([d3d6b75](https://github.com/lhew/tbs-games/commit/d3d6b75e9bd19490191c8fcc1a7dfb86b1b8917f))
-
-# CHANGELOG
