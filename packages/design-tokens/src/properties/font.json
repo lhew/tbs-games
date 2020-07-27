@@ -33,10 +33,10 @@
       "comment": "the base size of the font"
     },
     "color": {
-      "primary": {"value": "{color.primary.300.value"},
-      "secondary": {"value": "{color.secondary.300.value"},
-      "tertiary": {"value": "{color.tertiary.300.value"},
-      "gray": {"value": "{color.gray.300.value"}
+      "primary": { "value": "{color.primary.300.value" },
+      "secondary": { "value": "{color.secondary.300.value" },
+      "tertiary": { "value": "{color.tertiary.300.value" },
+      "gray": { "value": "{color.gray.300.value" }
     }
   }
 }

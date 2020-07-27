@@ -21,10 +21,16 @@
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean": "rm -rf build",
     "watch": "npm run build && chokidar  \"src/**/*.json\" -c \"npm run build\"",
-    "build": "rm -rf ./lib/ && style-dictionary build"
+    "build": "rm -rf ./lib/ && style-dictionary build",
+    "prettier": "prettier --write ."
   },
   "bugs": {
     "url": "https://github.com/lhew/tbs-games/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "devDependencies": {
     "chokidar-cli": "^2.1.0",

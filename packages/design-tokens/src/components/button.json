@@ -5,7 +5,7 @@
         "family": { "value": "{font.family.primary}" },
         "weight": "bold"
       },
-      "color": {"value" :"white"},
+      "color": { "value": "white" },
       "backgroundColor": {
         "value": "{color.primary.300.value}"
       }

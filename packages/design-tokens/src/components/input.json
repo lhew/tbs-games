@@ -4,11 +4,11 @@
       "font": {
         "family": { "value": "{font.family.primary}" }
       },
-      "color": {"value": "{color.gray.100.value}"},
-      "backgroundColor": {"value": "white"},
+      "color": { "value": "{color.gray.100.value}" },
+      "backgroundColor": { "value": "white" },
       "border": {
         "thickness": { "value": 1, "unit": "px" },
-        "color": {"value": "{color.gray.300.value}"}
+        "color": { "value": "{color.gray.300.value}" }
       }
     },
     "disabled": {
