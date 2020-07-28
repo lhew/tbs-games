@@ -6,12 +6,26 @@
         "weight": "bold"
       },
       "color": { "value": "white" },
+      "borderRadius": { "value": "{border-radius.default.value}" },
       "backgroundColor": {
         "value": "{color.primary.300.value}"
+      },
+
+      "focus": {
+        "backgroundColor": {
+          "value": "{color.primary.100.value}"
+        }
+      },
+      "disabled": {
+        "backgroundColor": {
+          "value": "{color.gray.300.value}"
+        }
       }
     },
     "disabled": {
-      "value": "{color.gray.300.value}",
+      "backgroundColor": {
+        "value": "{color.gray.300.value}"
+      },
       "color": "white"
     }
   }

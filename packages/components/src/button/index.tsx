@@ -3,7 +3,7 @@ import { Btn } from './styles';
 
 export interface Props {
   children: ReactNode;
-  [k: string]: ReactNode;
+  [k: string]: ReactNode | Function;
 }
 
 const Button: FC<Props> = ({ children, ...props }) => {
