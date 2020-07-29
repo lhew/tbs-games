@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 3,
-  "numPassedTests": 3,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 4,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 3,
-  "numTotalTests": 3,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 4,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -18,15 +18,15 @@
     "filesRemoved": 0,
     "filesRemovedList": [],
     "filesUnmatched": 0,
-    "filesUpdated": 1,
-    "matched": 2,
-    "total": 3,
+    "filesUpdated": 0,
+    "matched": 5,
+    "total": 5,
     "unchecked": 0,
     "uncheckedKeysByFile": [],
     "unmatched": 0,
-    "updated": 1
+    "updated": 0
   },
-  "startTime": 1596038404056,
+  "startTime": 1596040058862,
   "success": true,
   "testResults": [
     {
@@ -40,10 +40,10 @@
           "title": "Button scenarios"
         }
       ],
-      "endTime": 1596038406626,
+      "endTime": 1596040061437,
       "message": "",
       "name": "/Users/leonardoalmeidamarques/dev/tbs-games/packages/components/src/button/Button.test.tsx",
-      "startTime": 1596038405471,
+      "startTime": 1596040060186,
       "status": "passed",
       "summary": ""
     },
@@ -52,16 +52,16 @@
         {
           "ancestorTitles": [],
           "failureMessages": [],
-          "fullName": "Input scenarios",
+          "fullName": "Popup scenarios",
           "location": null,
           "status": "passed",
-          "title": "Input scenarios"
+          "title": "Popup scenarios"
         }
       ],
-      "endTime": 1596038406632,
+      "endTime": 1596040061444,
       "message": "",
-      "name": "/Users/leonardoalmeidamarques/dev/tbs-games/packages/components/src/input/Input.test.tsx",
-      "startTime": 1596038405471,
+      "name": "/Users/leonardoalmeidamarques/dev/tbs-games/packages/components/src/popup/Popup.test.tsx",
+      "startTime": 1596040060176,
       "status": "passed",
       "summary": ""
     },
@@ -76,10 +76,28 @@
           "title": "Toaster scenarios"
         }
       ],
-      "endTime": 1596038406644,
+      "endTime": 1596040061452,
       "message": "",
       "name": "/Users/leonardoalmeidamarques/dev/tbs-games/packages/components/src/toaster/Toaster.test.tsx",
-      "startTime": 1596038405475,
+      "startTime": 1596040060206,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "Input scenarios",
+          "location": null,
+          "status": "passed",
+          "title": "Input scenarios"
+        }
+      ],
+      "endTime": 1596040061459,
+      "message": "",
+      "name": "/Users/leonardoalmeidamarques/dev/tbs-games/packages/components/src/input/Input.test.tsx",
+      "startTime": 1596040060105,
       "status": "passed",
       "summary": ""
     }
