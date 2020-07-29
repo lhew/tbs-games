@@ -3,6 +3,7 @@ node_modules
 public
 lib
 build
+coverage
 dist
 .DS_Store
 .gitconfig

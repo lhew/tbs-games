@@ -9,12 +9,15 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest',
     '^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
   },
+  // transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$', '^.+\\.module\\.(css|sass|scss)$'],
 
   // Runs special logic, such as cleaning up components
   // when using React Testing Library and adds special
   // extended assertions to Jest
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
-
+  moduleNameMapper: {
+    '@tbs-games/design-tokens': '../',
+  },
   // Test spec file resolution pattern
   // Matches parent folder `__tests__` and filename
   // should contain `test` or `spec`.
