@@ -16,7 +16,7 @@
     "watch": "npm test:generate-output && mkdir -p lib && cp package.json lib && tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
+    "test:generate-output": "jest -u --json --outputFile=.jest-test-results.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

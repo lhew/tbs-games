@@ -1,0 +1,31 @@
+{
+  "toaster": {
+    "default": {
+      "font": {
+        "family": { "value": "{font.family.secondary}" }
+      },
+      "color": { "value": "white" },
+      "borderRadius": { "value": "{border-radius.default.value}" },
+      "backgroundColor": {
+        "value": "{color.tertiary.300.value}"
+      },
+
+      "focus": {
+        "backgroundColor": {
+          "value": "{color.tertiary.100.value}"
+        }
+      },
+      "disabled": {
+        "backgroundColor": {
+          "value": "{color.gray.300.value}"
+        }
+      }
+    },
+    "disabled": {
+      "backgroundColor": {
+        "value": "{color.gray.300.value}"
+      },
+      "color": "white"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toaster scenarios 1`] = `
+<div
+  className="sc-AxirZ dkUiNK"
+>
+  Hello
+</div>
+`;
