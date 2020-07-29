@@ -2,18 +2,24 @@
   "input": {
     "default": {
       "font": {
-        "family": { "value": "{font.family.primary}" }
+        "family": { "value": "{font.family.secondary}" }
       },
-      "color": { "value": "{color.gray.100.value}" },
+      "color": { "value": "{color.gray.300.value}" },
       "backgroundColor": { "value": "white" },
       "border": {
         "thickness": { "value": 1, "unit": "px" },
         "color": { "value": "{color.gray.300.value}" }
       }
     },
+    "focus": {
+      "color": { "value": "{color.gray.100.value}" },
+      "border": {
+        "color": { "value": "{color.gray.100.value}" }
+      }
+    },
     "disabled": {
-      "value": "{color.gray.300.value}",
-      "color": "white"
+      "color": { "value": "{color.gray.300.value}" },
+      "backgroundColor": { "value": "{color.gray.500.value}" }
     }
   }
 }

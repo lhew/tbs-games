@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input scenarios 1`] = `
+<input
+  className="sc-AxirZ ePxFjZ"
+  type="text"
+  value="foo"
+/>
+`;
