@@ -3,6 +3,7 @@
 
   "compilerOptions": {
     "declaration": true,
+    "resolveJsonModule": true,
     "jsx": "react",
     "outDir": "./lib"
   },
