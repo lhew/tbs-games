@@ -7,3 +7,19 @@ exports[`Toaster scenarios 1`] = `
   Hello
 </div>
 `;
+
+exports[`Toaster scenarios 2`] = `
+<div
+  className="sc-AxirZ dkUiNK"
+>
+  Styled toaster
+</div>
+`;
+
+exports[`Toaster scenarios 3`] = `
+<div
+  className="sc-AxirZ cEusSp"
+>
+  Styled opened toaster
+</div>
+`;
