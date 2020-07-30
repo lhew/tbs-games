@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField scenarios 1`] = `
+<div
+  className="sc-AxjAm lfEruz"
+>
+  <label
+    className="sc-AxirZ ijZhau"
+  >
+    Your name
+  </label>
+  <input
+    className="sc-AxhUy eqjwsk"
+    name="name"
+  />
+  <div
+    className="sc-AxiKw eawHeS"
+  >
+    <span>
+      There is a warning here
+    </span>
+  </div>
+</div>
+`;
+
+exports[`FormField scenarios 2`] = `
+<div
+  className="sc-AxjAm bSBBnf"
+>
+  <input
+    className="sc-AxhUy eqjwsk"
+    name="name"
+  >
+    <option>
+      Option 1
+    </option>
+    <option>
+      Option 2
+    </option>
+  </input>
+</div>
+`;
+
+exports[`FormField scenarios 3`] = `
+<div
+  className="sc-AxjAm lfEruz"
+>
+  <input
+    className="sc-AxhUy eqjwsk"
+    name="name"
+  >
+    <option>
+      Option 1
+    </option>
+    <option>
+      Option 2
+    </option>
+  </input>
+</div>
+`;
+
+exports[`FormField scenarios 4`] = `
+<div
+  className="sc-AxjAm lfEruz"
+>
+  Default FormField
+</div>
+`;
+
+exports[`FormField scenarios 5`] = `
+<div
+  className="sc-AxjAm bSBBnf"
+>
+  Default FormField
+</div>
+`;
+
+exports[`FormField scenarios 6`] = `
+<div
+  className="sc-AxjAm lfEruz"
+>
+  Default FormField
+</div>
+`;
