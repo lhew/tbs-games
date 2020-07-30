@@ -6,7 +6,7 @@ export interface Props {
   children?: ReactNode;
   [k: string]: any;
 }
-1;
+
 const Input: FC<Props> = ({ className, children, ...props }) => {
   return (
     <StyledInput className={className} {...props}>
