@@ -1,11 +1,12 @@
 import React from 'react';
 import { withTests } from '@storybook/addon-jest';
-import { withKnobs, optionsKnob } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 import results from '../../.jest-test-results.json';
 import Input from '.';
 import Button from '../button';
+import { ReactElement } from 'react';
 
-export const Default = () => {
+export const Default = (): ReactElement => {
   return (
     <>
       <Input type="text" placeholder="input values" />

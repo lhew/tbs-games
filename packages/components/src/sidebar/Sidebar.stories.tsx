@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { withTests } from '@storybook/addon-jest';
 import { withKnobs, optionsKnob } from '@storybook/addon-knobs';
 import results from '../../.jest-test-results.json';
 import Sidebar from '.';
 
-export const Default = () => {
+export const Default = (): ReactElement => {
   // const isLoading = optionsKnob('Loading', { Yes: 'true', No: 'false' }, 'false', { display: 'inline-radio' });
 
   const isOpen = optionsKnob(

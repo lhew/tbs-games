@@ -4,8 +4,9 @@ import { withKnobs, optionsKnob } from '@storybook/addon-knobs';
 import results from '../../.jest-test-results.json';
 import Popup from '.';
 import Button from '../button';
+import { ReactElement } from 'react';
 
-export const Default = () => {
+export const Default = (): ReactElement => {
   // const isLoading = optionsKnob('Loading', { Yes: 'true', No: 'false' }, 'false', { display: 'inline-radio' });
 
   const mode = optionsKnob(
