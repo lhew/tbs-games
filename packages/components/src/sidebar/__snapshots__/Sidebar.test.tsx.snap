@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar scenarios 1`] = `
+<div
+  className="sc-AxirZ hPtAGH"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 2`] = `
+<div
+  className="sc-AxirZ bLjSed"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 3`] = `
+<div
+  className="sc-AxirZ hPtAGH"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 4`] = `
+<div
+  className="sc-AxirZ hPtAGH"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 5`] = `
+<div
+  className="sc-AxiKw kSUMgi"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 6`] = `
+<div
+  className="sc-AxiKw chlQxW"
+>
+  Children item
+</div>
+`;
+
+exports[`Sidebar scenarios 7`] = `
+<div
+  className="sc-AxiKw chlQxW"
+>
+  Children item
+</div>
+`;
