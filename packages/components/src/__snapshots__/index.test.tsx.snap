@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing imports 1`] = `
+<div>
+  <div
+    className="sc-AxhCb bRrSKR"
+  >
+    <h1>
+      Test
+    </h1>
+  </div>
+  <button
+    className="sc-AxjAm kwfnmA"
+  >
+    a button
+  </button>
+  <div
+    className="sc-AxiKw kWKImv"
+  >
+    <div
+      className="sc-AxirZ gHoGsv"
+    >
+      A popup example
+    </div>
+  </div>
+  <div
+    className="sc-AxheI cywBwt"
+  >
+    <input
+      className="sc-fzozJi fbOHBz"
+      name="foo"
+    />
+  </div>
+  <div
+    className="sc-AxgMl depUzd"
+  >
+    Toaster
+  </div>
+</div>
+`;

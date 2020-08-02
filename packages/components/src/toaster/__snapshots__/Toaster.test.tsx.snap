@@ -2,7 +2,7 @@
 
 exports[`Toaster scenarios 1`] = `
 <div
-  className="sc-AxirZ dkUiNK"
+  className="sc-fzozJi dyhXEA"
 >
   Hello
 </div>
@@ -10,7 +10,7 @@ exports[`Toaster scenarios 1`] = `
 
 exports[`Toaster scenarios 2`] = `
 <div
-  className="sc-AxirZ dkUiNK"
+  className="sc-fzozJi dyhXEA"
 >
   Styled toaster
 </div>
@@ -18,7 +18,7 @@ exports[`Toaster scenarios 2`] = `
 
 exports[`Toaster scenarios 3`] = `
 <div
-  className="sc-AxirZ cEusSp"
+  className="sc-fzozJi jBYjbj"
 >
   Styled opened toaster
 </div>

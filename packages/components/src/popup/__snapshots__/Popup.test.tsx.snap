@@ -2,10 +2,10 @@
 
 exports[`Popup scenarios 1`] = `
 <div
-  className="sc-AxiKw jCtEIX"
+  className="sc-fzozJi eywvFd"
 >
   <div
-    className="sc-AxirZ gHoGsv"
+    className="sc-AxmLO cqvA-dw"
   >
     <div
       style={
@@ -27,10 +27,10 @@ exports[`Popup scenarios 1`] = `
 
 exports[`Popup scenarios 2`] = `
 <div
-  className="sc-AxiKw kWKImv"
+  className="sc-fzozJi dtiIZh"
 >
   <div
-    className="sc-AxirZ gHoGsv"
+    className="sc-AxmLO cqvA-dw"
   >
     <div
       style={
@@ -52,7 +52,7 @@ exports[`Popup scenarios 2`] = `
 
 exports[`Popup scenarios 3`] = `
 <div
-  className="sc-AxiKw kWKImv"
+  className="sc-fzozJi dtiIZh"
 >
   Test
 </div>
@@ -60,7 +60,7 @@ exports[`Popup scenarios 3`] = `
 
 exports[`Popup scenarios 4`] = `
 <div
-  className="sc-AxiKw kWKImv"
+  className="sc-fzozJi dtiIZh"
 >
   Test
 </div>

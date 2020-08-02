@@ -2,7 +2,7 @@
 
 exports[`Sidebar scenarios 1`] = `
 <div
-  className="sc-AxirZ hPtAGH"
+  className="sc-AxmLO gIELgM"
 >
   Children item
 </div>
@@ -10,7 +10,7 @@ exports[`Sidebar scenarios 1`] = `
 
 exports[`Sidebar scenarios 2`] = `
 <div
-  className="sc-AxirZ bLjSed"
+  className="sc-AxmLO jFAXou"
 >
   Children item
 </div>
@@ -18,7 +18,7 @@ exports[`Sidebar scenarios 2`] = `
 
 exports[`Sidebar scenarios 3`] = `
 <div
-  className="sc-AxirZ hPtAGH"
+  className="sc-AxmLO gIELgM"
 >
   Children item
 </div>
@@ -26,7 +26,7 @@ exports[`Sidebar scenarios 3`] = `
 
 exports[`Sidebar scenarios 4`] = `
 <div
-  className="sc-AxirZ hPtAGH"
+  className="sc-AxmLO gIELgM"
 >
   Children item
 </div>
@@ -34,7 +34,7 @@ exports[`Sidebar scenarios 4`] = `
 
 exports[`Sidebar scenarios 5`] = `
 <div
-  className="sc-AxiKw kSUMgi"
+  className="sc-fzozJi jxDyMo"
 >
   Children item
 </div>
@@ -42,7 +42,7 @@ exports[`Sidebar scenarios 5`] = `
 
 exports[`Sidebar scenarios 6`] = `
 <div
-  className="sc-AxiKw chlQxW"
+  className="sc-fzozJi joanvg"
 >
   Children item
 </div>
@@ -50,7 +50,7 @@ exports[`Sidebar scenarios 6`] = `
 
 exports[`Sidebar scenarios 7`] = `
 <div
-  className="sc-AxiKw chlQxW"
+  className="sc-fzozJi joanvg"
 >
   Children item
 </div>

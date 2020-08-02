@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { withTests } from '@storybook/addon-jest';
 import { withKnobs, optionsKnob } from '@storybook/addon-knobs';
 import results from '../../.jest-test-results.json';

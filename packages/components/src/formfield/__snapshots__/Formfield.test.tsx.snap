@@ -10,7 +10,7 @@ exports[`FormField scenarios 1`] = `
     Your name
   </label>
   <input
-    className="sc-AxhUy eqjwsk"
+    className="sc-fzozJi fbOHBz"
     name="name"
   />
   <div
@@ -28,7 +28,7 @@ exports[`FormField scenarios 2`] = `
   className="sc-AxjAm bSBBnf"
 >
   <input
-    className="sc-AxhUy eqjwsk"
+    className="sc-fzozJi fbOHBz"
     name="name"
   >
     <option>
@@ -46,7 +46,7 @@ exports[`FormField scenarios 3`] = `
   className="sc-AxjAm lfEruz"
 >
   <input
-    className="sc-AxhUy eqjwsk"
+    className="sc-fzozJi fbOHBz"
     name="name"
   >
     <option>
