@@ -1,0 +1,7 @@
+export enum Screen {
+  TABLET = 768,
+  TABLET_PORTRAIT = 1024,
+  DESKTOP = 1200,
+  DESKTOP_LG = 1440,
+  DESKTOP_XL = 1600,
+}

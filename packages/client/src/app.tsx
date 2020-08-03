@@ -1,6 +1,6 @@
 import React from 'react';
 import { FC } from 'react';
-import Button from '@tbs-games/components/lib/button';
+import Home from './pages/home';
 interface Props {
   foo?: string;
 }
@@ -8,8 +8,7 @@ interface Props {
 const App: FC<Props> = (props) => {
   return (
     <div {...props}>
-      <h1>TBS Games</h1>
-      <Button>ok</Button>
+      <Home />
     </div>
   );
 };
