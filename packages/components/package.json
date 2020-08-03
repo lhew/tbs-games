@@ -9,6 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/lhew/tbs-games.git"
   },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx --fix",
     "prettier": "prettier --write .",

@@ -7,8 +7,7 @@
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -39,5 +38,8 @@
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "style-dictionary": "^2.10.1"
+  },
+  "dependencies": {
+    "@tbs-games/components": "^0.0.0"
   }
 }
