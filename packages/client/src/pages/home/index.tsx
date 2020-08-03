@@ -1,7 +1,7 @@
 import React from 'react';
 import { FC, useState } from 'react';
 import { GameOptionsWrapper, StyledButton, Canvas } from './styles';
-import { Popup, Button, FormField } from '@tbs-games/components';
+import { Popup, Button, FormField } from '@tbs-games/components/lib';
 
 const Home: FC = () => {
   const [popupState, setPopupState] = useState<'new' | 'join' | null>(null);
